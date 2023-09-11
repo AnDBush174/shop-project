@@ -4,6 +4,7 @@ from item import Item
 from phone import Phone
 
 class TestPhone:
+
     def setup_method(self):
         self.phone1 = Phone("Phone 1", 100, 2, 1)
         self.phone2 = Phone("Phone 2", 150, 3, 2)
